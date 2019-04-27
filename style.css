@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  background: rgb(240, 240, 240);
+  color: rgb(20, 20, 20);
+  font-family: 'Lato', sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+  font-size: 42px;
+  color: #f7f7f9;
+  line-height: 0.8;
+  letter-spacing: 7px;
+}
+a {
+  color: #6A71E1;
+  text-decoration: none;
+}
+a:hover {
+  color: pink;
+}
+p {
+  font-family: 'Merriweather', serif;
+}
+img {
+  height: 200px
+}
+
+#banner {
+    background-image: url(images/almaty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px;
+  }
+
+  #banner a {
+        color: white;
+    padding: 13px;
+    background-color: blue;
+    margin-bottom: 50px;
+}
+
+.card-white {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 300px;
+  margin: 19px auto;
+    }
+
+.footer {
+  background-color: pink ;
+  padding: 24px;
+  color: white;
+  font-size: 25px;
+}
+
+.list-inline {
+  padding-left: 0px; 
+  list-style: none;
+  display : inline;
+
+
+} 
+}
+   
